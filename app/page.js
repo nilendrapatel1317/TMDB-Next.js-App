@@ -1,8 +1,6 @@
 import LoadMore from "../components/LoadMore";
 import React from "react";
-// import { data } from "../contents/data";
-import AnimeCard from "../components/AnimeCard";
-import { fetchAnime } from "./action";
+import { fetchAnime } from "../server/action";
 
 const page = async () => {
 
